@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@utility inp-text {
+    @apply bg-slate-100 w-full rounded-md px-1 py-1
+}
+
+@utility btn {
+    @apply transition duration-100 ease-in-out text-black cursor-pointer rounded-md px-2 py-2 hover:bg-slate-700 hover:text-slate-50 focus:outline-2 focus:outline-slate-600
+}
